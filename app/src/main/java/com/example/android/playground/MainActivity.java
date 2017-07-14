@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         player = MediaPlayer.create(this, R.raw.mozart_concerto_4);
+        player.setOnCompletionListener(new MozartOnCompletionListener(this));
     }
 
     public void playMusic(View view) {
@@ -22,5 +23,5 @@ public class MainActivity extends AppCompatActivity {
 
     public void pauseMusic(View view) {
         player.pause();
-    }7
+    }
 }
