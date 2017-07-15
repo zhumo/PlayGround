@@ -13,4 +13,10 @@
         android:text="Mozart"
         android:background="@android:color/holo_red_light"/>
 
+    <Button
+        style="@style/sandbox_link"
+        android:onClick="showActivityLifecycleActivity"
+        android:text="Activity Lifecycle"
+        android:background="@android:color/holo_blue_dark"/>
+
 </LinearLayout>
