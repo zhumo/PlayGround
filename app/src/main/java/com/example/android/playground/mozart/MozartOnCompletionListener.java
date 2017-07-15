@@ -1,4 +1,4 @@
-package com.example.android.playground;
+package com.example.android.playground.mozart;
 
 import android.content.Context;
 import android.media.MediaPlayer;
