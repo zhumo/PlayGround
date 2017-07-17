@@ -19,7 +19,8 @@
         <activity
             android:name=".mozart.MozartActivity"
             android:label="Mozart" />
-        <activity android:name=".activity_lifecycle.ActivityLifecycleActivity"></activity>
+        <activity android:name=".activity_lifecycle.ActivityLifecycleActivity" />
+        <activity android:name=".day_of_the_week.DayOfTheWeekActivity"></activity>
     </application>
 
 </manifest>

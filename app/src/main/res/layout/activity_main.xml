@@ -18,5 +18,10 @@
         android:onClick="showActivityLifecycleActivity"
         android:text="Activity Lifecycle"
         android:background="@android:color/holo_blue_dark"/>
+    <Button
+        style="@style/sandbox_link"
+        android:onClick="showDayOfTheWeekActivity"
+        android:text="Day Of The Week"
+        android:background="@android:color/holo_green_dark"/>
 
 </LinearLayout>

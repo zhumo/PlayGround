@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.android.playground.activity_lifecycle.ActivityLifecycleActivity;
+import com.example.android.playground.day_of_the_week.DayOfTheWeekActivity;
 import com.example.android.playground.mozart.MozartActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void showActivityLifecycleActivity(View view) {
         Intent i = new Intent(this, ActivityLifecycleActivity.class);
+        startActivity(i);
+    }
+
+    public void showDayOfTheWeekActivity(View view) {
+        Intent i = new Intent(this, DayOfTheWeekActivity.class);
         startActivity(i);
     }
 }
