@@ -18,9 +18,12 @@
         </activity>
         <activity
             android:name=".mozart.MozartActivity"
-            android:label="Mozart" />
-        <activity android:name=".activity_lifecycle.ActivityLifecycleActivity" />
-        <activity android:name=".day_of_the_week.DayOfTheWeekActivity"></activity>
+            android:label="Mozart"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".activity_lifecycle.ActivityLifecycleActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".day_of_the_week.DayOfTheWeekActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
