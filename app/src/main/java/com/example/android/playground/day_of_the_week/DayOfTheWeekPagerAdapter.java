@@ -33,4 +33,10 @@ public class DayOfTheWeekPagerAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return 5;
     }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        DayOfTheWeekFragment dayOfTheWeek = (DayOfTheWeekFragment) getItem(position);
+        return dayOfTheWeek.getDayOfTheWeekName();
+    }
 }
